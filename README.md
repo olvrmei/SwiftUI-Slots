@@ -1,3 +1,3 @@
-# SwiftUI-Slots
+# SwiftUI Slots
 
 under construction...
