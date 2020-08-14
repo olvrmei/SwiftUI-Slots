@@ -139,12 +139,14 @@ struct ContentView: View {
         var matches = 0
         
         if !isMax{
+            self.points -= betAmount
             // Processing for single spin
             if isMatch(3,4,5){
-                matches += 1
+                self.points += betAmount * 2
             }
         }
         else{
+            self.points -= betAmount * betAmount
             // Processing for max spin
             // Top row
             if isMatch(0,1,2){
@@ -170,20 +172,9 @@ struct ContentView: View {
             if isMatch(2,4,6){
                 matches += 1
             }
-        
-            if matches > 0{
-                self.points += matches * betAmount * 2
-            }
-            else if !isMax{
-                self.points -= betAmount
-            }
-            else{
-                self.points -= betAmount * 5
-            }
             
-            
+            self.points += matches * betAmount * betAmount * 2
         }
-    
     }
     
     func isMatch(_ a:Int, _ b:Int, _ c:Int) -> Bool{
