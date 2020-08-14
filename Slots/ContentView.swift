@@ -180,9 +180,9 @@ struct ContentView: View {
     func isMatch(_ a:Int, _ b:Int, _ c:Int) -> Bool{
         if self.numbers[a] == self.numbers[b] && self.numbers[b] == self.numbers[c]{
             // Update backgrounds
-            self.backgrounds[a] = Color.pink
-            self.backgrounds[b] = Color.pink
-            self.backgrounds[c] = Color.pink
+            self.backgrounds[a] = Color.green
+            self.backgrounds[b] = Color.green
+            self.backgrounds[c] = Color.green
             
             return true
         }
