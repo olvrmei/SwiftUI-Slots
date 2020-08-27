@@ -2,8 +2,8 @@
 //  CardView.swift
 //  Slots
 //
-//  Created by Meika Farias de Oliveira on 16/07/20.
-//  Copyright © 2020 Meika Farias de Oliveira. All rights reserved.
+//  Created by Meika Oliveira on 16/07/20.
+//  Copyright © 2020 Meika Oliveira. All rights reserved.
 //
 
 import SwiftUI
