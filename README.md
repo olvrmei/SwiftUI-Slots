@@ -7,5 +7,5 @@ Inpired by the slot machine game, you gain points everytime you align horizontal
   <img src="https://github.com/olvrmei/SwiftUI-Slots/blob/master/preview.gif?raw=true" width=40% height=40%>
 \
 <br />
-Developed using Xcode. Heavily inspired by CodeWithChris SwiftUI tutorial.
+Developed using Xcode. Based on CodeWithChris' SwiftUI tutorial.
 You can check his stuff [here](https://codewithchris.com/).
