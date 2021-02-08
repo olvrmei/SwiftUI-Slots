@@ -1,5 +1,7 @@
-# ⭐ SwiftUI Slots! ⭐
 
+<h1 align="center"> ⭐ SwiftUI Slots! ⭐ </h1>
+
+<p align="center">
 SwiftUI Slots is a small simple project for SwiftUI learning purposes.
 Inpired by the slot machine game, you gain points everytime you align horizontal or diagonal rows with the same symbol (🍏,🍒,⭐).
 <br />
@@ -8,4 +10,5 @@ Inpired by the slot machine game, you gain points everytime you align horizontal
 \
 <br />
 Developed using Xcode. Based on CodeWithChris' SwiftUI tutorial.
-You can check his stuff [here](https://codewithchris.com/).
+  You can check his stuff <a href="https://codewithchris.com/">here</a>.
+  </p>
